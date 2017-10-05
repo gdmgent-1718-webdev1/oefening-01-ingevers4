@@ -21,7 +21,7 @@ $y = 7;
     <?php echo "7 - 10 is ", $y - $x ?> <br>
     <?php echo "7 * 10 is ", $y * $x ?> <br>
     <?php echo "7 / 10 is ", $y / $x ?> <br>
-    <?php echo "7 % 10 is ", $y % $x ?> <br>
+    <?php echo "7 % 10 is ", $x % $y ?> <br>
 
 
     <h1>Titel in HTML </h1>
