@@ -1,10 +1,5 @@
 <?php
 $naam = 'Inge';
-$hallo = "hallo ";
-$wereld = "wereld";
-$x = 10;
-$y = 7;
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,15 +10,8 @@ $y = 7;
     <title>Document</title>
 </head>
 <body>
-    <?php echo $naam ?> <br>
-    <?php echo $hallo , $wereld ?> <br>
-    <?php echo "7 + 10 is ", $y + $x ?> <br>
-    <?php echo "7 - 10 is ", $y - $x ?> <br>
-    <?php echo "7 * 10 is ", $y * $x ?> <br>
-    <?php echo "7 / 10 is ", $y / $x ?> <br>
-    <?php echo "7 % 10 is ", $x % $y ?> <br>
-
-
+    <h1><?php echo $naam ?></h1> <br>
     <h1>Titel in HTML </h1>
+    
 </body>
 </html>
